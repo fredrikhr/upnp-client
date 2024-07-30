@@ -15,7 +15,7 @@ charset = utf-8
 indent_size = 2
 
 # Xml files
-[*.{xml,props,targets}]
+[*.{xml,props,targets,csproj}]
 charset = utf-8
 indent_size = 2
 

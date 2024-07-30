@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -13,14 +13,50 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "..root", "..root", "{A7721D
 		LICENSE = LICENSE
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cli", "cli", "{B2388510-2918-4335-909C-6150E4BBD98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredrikHr.UpnpClient.Cli", "cli\FredrikHr.UpnpClient.Cli\FredrikHr.UpnpClient.Cli.csproj", "{AA15B468-48F8-4634-8EC8-262E6D532E80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{B40E5108-F501-4E85-9E7A-2D627923C92E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredrikHr.UpnpClient", "lib\FredrikHr.UpnpClient\FredrikHr.UpnpClient.csproj", "{392D3E51-2656-43AC-B49B-AC316EE49C04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredrikHr.UpnpClient.WindowsNative", "lib\FredrikHr.UpnpClient.WindowsNative\FredrikHr.UpnpClient.WindowsNative.csproj", "{777D111A-0DCF-4667-B11C-7EE07781F1CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9D620798-92C3-496B-9DD0-59C945019038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FredrikHr.UpnpClient.Test.WindowsNative", "test\FredrikHr.UpnpClient.Test.WindowsNative\FredrikHr.UpnpClient.Test.WindowsNative.csproj", "{3D2F6545-7757-4D65-B894-2CEA66BC13EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA15B468-48F8-4634-8EC8-262E6D532E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA15B468-48F8-4634-8EC8-262E6D532E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA15B468-48F8-4634-8EC8-262E6D532E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA15B468-48F8-4634-8EC8-262E6D532E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392D3E51-2656-43AC-B49B-AC316EE49C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392D3E51-2656-43AC-B49B-AC316EE49C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392D3E51-2656-43AC-B49B-AC316EE49C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392D3E51-2656-43AC-B49B-AC316EE49C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777D111A-0DCF-4667-B11C-7EE07781F1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777D111A-0DCF-4667-B11C-7EE07781F1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777D111A-0DCF-4667-B11C-7EE07781F1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777D111A-0DCF-4667-B11C-7EE07781F1CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2F6545-7757-4D65-B894-2CEA66BC13EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2F6545-7757-4D65-B894-2CEA66BC13EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2F6545-7757-4D65-B894-2CEA66BC13EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2F6545-7757-4D65-B894-2CEA66BC13EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA15B468-48F8-4634-8EC8-262E6D532E80} = {B2388510-2918-4335-909C-6150E4BBD98F}
+		{392D3E51-2656-43AC-B49B-AC316EE49C04} = {B40E5108-F501-4E85-9E7A-2D627923C92E}
+		{777D111A-0DCF-4667-B11C-7EE07781F1CB} = {B40E5108-F501-4E85-9E7A-2D627923C92E}
+		{3D2F6545-7757-4D65-B894-2CEA66BC13EC} = {9D620798-92C3-496B-9DD0-59C945019038}
 	EndGlobalSection
 EndGlobal
